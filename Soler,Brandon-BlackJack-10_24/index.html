@@ -1,0 +1,42 @@
+<html>
+	<head>
+			<title>BlackJack</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script type="text/javascript" src="script/blackjack.js"></script>
+	</head>
+
+<body>
+
+	<h1> Blackjack!</h1>
+
+	<div id="dealerCards">
+			<p id="dealerScore">Total: 0</p>
+			<div id="dealer">Dealer</div>
+
+	
+	</div>
+	
+	<br>
+	<br>
+
+	
+	<div id="playercards">
+
+				<p id="playerScore">Total: 0</p>
+				<div id="player">Player</div>
+
+	</div>
+	
+	<div>
+		<button id="start" onclick="newGame()">Start</button>
+		<button id="hit" onclick="hit()">Hit</button>
+		<button id="stand"onclick="stand()">Stand</button>
+		
+	</div>
+
+	<br>
+	<br>
+		
+		<button id="init" onclick="init()">Restart</button><br>
+
+	<h1 id="gameMsg">Press Start to Play</h1>
